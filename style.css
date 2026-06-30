@@ -1677,3 +1677,51 @@ body:has(button:hover) .cursor {
     padding: 0.85rem 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-hamburger {
+    display: flex;
+    z-index: 1001;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100dvh;
+    background: var(--bg-surface);
+    border-left: 1px solid var(--border-subtle);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6rem 2rem calc(env(safe-area-inset-bottom) + 2rem);
+    gap: 1.5rem;
+    transition: right var(--transition-base);
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .nav-resume-btn {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    padding: 0.8rem 1.2rem;
+  }
+}
