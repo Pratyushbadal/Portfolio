@@ -59,11 +59,9 @@ document.querySelectorAll('.nav-link').forEach(link => {
 /* ---------- TYPEWRITER EFFECT ---------- */
 const phrases = [
   'Backend Developer',
-  'ASP.NET Core Engineer',
-  'FastAPI Builder',
+  '.NET Developer',
+  'Python API Developer',
   'Full-Stack Developer',
-  'Clean Architecture Fan',
-  'Docker Enthusiast',
 ];
 
 let phraseIndex = 0;

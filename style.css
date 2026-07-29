@@ -1688,7 +1688,9 @@ body:has(button:hover) .cursor {
     position: fixed;
     top: 0;
     right: -100%;
+    left: auto;
     width: 280px;
+    transform: none;
     height: 100dvh;
     background: var(--bg-surface);
     border-left: 1px solid var(--border-subtle);
@@ -1702,7 +1704,7 @@ body:has(button:hover) .cursor {
     z-index: 1000;
   }
 
-  .nav-links.active {
+  .nav-links.open {
     right: 0;
   }
 
