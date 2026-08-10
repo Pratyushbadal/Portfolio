@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratyush Badal - Resume</title>
+<style>
+  * { box-sizing: border-box; }
+  @page { size: A4; margin: 0; }
+  html, body { margin: 0; padding: 0; background: #e8edf4; color: #172033; font-family: "Segoe UI", Arial, sans-serif; }
+  body { font-size: 10.2pt; line-height: 1.42; }
+  .page { width: 210mm; height: 297mm; margin: 10mm auto; padding: 14mm 16mm 13mm; background: #fff; position: relative; overflow: hidden; }
+  .header { border-bottom: 2px solid #2563eb; padding-bottom: 5mm; margin-bottom: 5mm; }
+  h1 { margin: 0 0 1.5mm; font-size: 27pt; line-height: 1; color: #111827; letter-spacing: -0.5px; }
+  .headline { color: #2563eb; font-weight: 700; font-size: 11.5pt; margin-bottom: 2.5mm; }
+  .contact { display: flex; flex-wrap: wrap; gap: 1.3mm 4mm; font-size: 8.8pt; color: #475569; }
+  .contact a { color: #334155; text-decoration: none; }
+  .contact span:not(:last-child)::after { content: " |"; margin-left: 4mm; color: #94a3b8; }
+  section { margin-top: 4.5mm; }
+  h2 { margin: 0 0 2.5mm; padding-bottom: 1.2mm; border-bottom: 1px solid #b9c5d6; color: #111827; font-size: 12.5pt; line-height: 1.1; letter-spacing: 1.1px; text-transform: uppercase; }
+  p { margin: 0; }
+  .summary { color: #334155; }
+  .entry { margin-bottom: 3.8mm; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head { display: flex; justify-content: space-between; gap: 6mm; align-items: baseline; margin-bottom: 1mm; }
+  .entry-title { font-weight: 700; font-size: 10.8pt; color: #111827; }
+  .entry-subtitle { color: #2563eb; font-weight: 600; }
+  .entry-date { white-space: nowrap; color: #475569; font-weight: 600; font-size: 9pt; }
+  ul { margin: 1.5mm 0 0 4.8mm; padding: 0; }
+  li { margin: 0 0 1.1mm; padding-left: 1mm; color: #334155; }
+  .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 8mm; }
+  .skill-row { display: grid; grid-template-columns: 28mm 1fr; gap: 2mm; }
+  .skill-label { font-weight: 700; color: #111827; }
+  .project { margin-bottom: 3mm; }
+  .project:last-child { margin-bottom: 0; }
+  .project-title { display: flex; justify-content: space-between; align-items: baseline; gap: 5mm; }
+  .project-title strong { color: #111827; font-size: 10.8pt; }
+  .project-tech { color: #2563eb; font-weight: 600; font-size: 8.8pt; text-align: right; }
+  .project p { margin-top: 1mm; color: #334155; }
+  .project ul { margin-top: 1.2mm; }
+  .education-row { display: flex; justify-content: space-between; gap: 8mm; margin-bottom: 2.5mm; }
+  .education-row:last-child { margin-bottom: 0; }
+  .education-main { font-weight: 700; color: #111827; }
+  .education-detail { color: #475569; }
+  .cert-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 8mm; }
+  .cert { display: flex; justify-content: space-between; gap: 3mm; color: #334155; }
+  .cert-year { color: #475569; font-weight: 600; white-space: nowrap; }
+  .footer { position: absolute; left: 16mm; right: 16mm; bottom: 7mm; display: flex; justify-content: space-between; color: #94a3b8; font-size: 8pt; }
+  @media print {
+    html, body { background: #fff; }
+    .page { margin: 0; page-break-after: always; }
+    .page:last-child { page-break-after: auto; }
+  }
+</style>
+</head>
+<body>
+  <article class="page">
+    <header class="header">
+      <h1>Pratyush Badal</h1>
+      <div class="headline">Backend and Full-Stack Developer</div>
+      <div class="contact">
+        <span>9813747090</span>
+        <span><a href="mailto:info@pratyushbadal.com.np">info@pratyushbadal.com.np</a></span>
+        <span><a href="https://pratyushbadal.com.np">pratyushbadal.com.np</a></span>
+        <span><a href="https://github.com/Pratyushbadal">github.com/Pratyushbadal</a></span>
+        <span><a href="https://www.linkedin.com/in/pratyush-badal-4826592b1/">LinkedIn</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p class="summary">Final-year BSc (Hons) Computing student with internship experience building backend systems, APIs, and workflow-heavy business applications. Experienced with C# and ASP.NET Core, Python and Django/FastAPI, SQL Server and PostgreSQL, React, and containerized development. Focused on maintainable code, secure access control, reliable data flows, and practical problem-solving.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <div><span class="entry-title">.NET Developer Intern</span> <span class="entry-subtitle">| Swift Technology</span></div>
+          <div class="entry-date">June 2026 - Present</div>
+        </div>
+        <ul>
+          <li>Develop an internal IT access request and approval system using C#, ASP.NET Core MVC, Razor, JavaScript, Bootstrap, and SQL Server.</li>
+          <li>Implement sequential approval workflows for employees, managers, approvers, and administrators, including reapplication, expiry, decline, and revocation flows.</li>
+          <li>Build stored procedures and parameterized ADO.NET data access for pagination, advanced search, sorting, dashboards, and Excel import/export.</li>
+          <li>Improve security and reliability through cookie authentication, password hashing, server-side validation, authorization checks, structured logging, and asynchronous email notifications.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <div><span class="entry-title">Software Developer Intern</span> <span class="entry-subtitle">| Nvolve Pvt. Ltd</span></div>
+          <div class="entry-date">Aug 2025 - Nov 2025</div>
+        </div>
+        <ul>
+          <li>Developed and maintained REST APIs using Django REST Framework and PostgreSQL.</li>
+          <li>Worked with Docker Compose and PgBouncer for containerized development and database connection pooling.</li>
+          <li>Used Celery and RabbitMQ background tasks for report generation and email work.</li>
+          <li>Applied select_related and prefetch_related to improve relational query efficiency and contributed to PostgreSQL backup and restore tooling.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <div class="skill-row"><div class="skill-label">Languages</div><div>C#, Python, TypeScript, JavaScript, Java, SQL</div></div>
+        <div class="skill-row"><div class="skill-label">Backend</div><div>ASP.NET Core MVC/Web API, Dapper, EF Core, Django REST Framework, FastAPI</div></div>
+        <div class="skill-row"><div class="skill-label">Frontend</div><div>React, Razor, HTML, CSS, Bootstrap, Tailwind CSS</div></div>
+        <div class="skill-row"><div class="skill-label">Data</div><div>SQL Server, PostgreSQL, MySQL, MongoDB, SQLite</div></div>
+        <div class="skill-row"><div class="skill-label">Tools</div><div>Docker, Git, GitHub, Postman, Visual Studio, VS Code</div></div>
+        <div class="skill-row"><div class="skill-label">Platforms</div><div>Celery, RabbitMQ, PgBouncer, .NET MAUI, QuestPDF</div></div>
+      </div>
+    </section>
+
+    <div class="footer"><span>Pratyush Badal</span><span>1 / 2</span></div>
+  </article>
+
+  <article class="page">
+    <header class="header">
+      <h1 style="font-size: 21pt;">Selected Projects</h1>
+      <div class="headline">Verified work across .NET, Python, React, and cross-platform development</div>
+    </header>
+
+    <section style="margin-top: 0;">
+      <div class="project">
+        <div class="project-title"><strong>VehicleIMS - Vehicle Inventory Management System</strong><span class="project-tech">C# | ASP.NET Core | React | PostgreSQL | EF Core</span></div>
+        <p>Team-built platform for vehicle inventory, bookings, parts requests, customer reviews, and role-specific dashboards.</p>
+        <ul>
+          <li>Contributed booking, customer, parts-request, review, and notification workflows across the layered backend.</li>
+          <li>Implemented JWT-based customer authentication and strengthened validation, status handling, global exception handling, pagination, and request actions.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-title"><strong>DataViz - Data Visualization and Analytics Platform</strong><span class="project-tech">FastAPI | React | TypeScript | PostgreSQL | scikit-learn</span></div>
+        <p>Full-stack platform for dataset upload, cleaning, profiling, visualization, collaborative workspaces, and chart export.</p>
+        <ul>
+          <li>Implemented JWT authentication, email OTP verification, Google OAuth, and Google Drive dataset import.</li>
+          <li>Built an ML-assisted chart recommendation workflow using pandas and scikit-learn.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-title"><strong>JournalApp - Cross-Platform Journal and Task Tracker</strong><span class="project-tech">.NET MAUI | Blazor | SQLite | QuestPDF</span></div>
+        <p>Cross-platform application targeting Android, iOS, Windows, and macOS with shared Blazor views.</p>
+        <ul>
+          <li>Implemented asynchronous SQLite persistence with app-local storage and a lightweight schema migration.</li>
+          <li>Added a local PIN lock and styled PDF record export using QuestPDF.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-row"><div><div class="education-main">BSc (Hons) Computing</div><div class="education-detail">Islington College / London Metropolitan University, Kathmandu</div></div><div class="entry-date">2023 - Present</div></div>
+      <div class="education-row"><div><div class="education-main">School Leaving Certificate (SLC / +2)</div><div class="education-detail">Trinity International SS &amp; College, Kathmandu</div></div><div class="entry-date">2021 - 2023</div></div>
+      <div class="education-row"><div><div class="education-main">School Education Examination (SEE)</div><div class="education-detail">KMC School, Kathmandu</div></div><div class="entry-date">2021</div></div>
+    </section>
+
+    <section>
+      <h2>Certifications and Programs</h2>
+      <div class="cert-grid">
+        <div class="cert"><span>AWS Cloud Practitioner</span><span class="cert-year">2024</span></div>
+        <div class="cert"><span>Django Essential Training</span><span class="cert-year">2025</span></div>
+        <div class="cert"><span>AWS Academy Data Engineering</span><span class="cert-year">2024</span></div>
+        <div class="cert"><span>Learning Docker</span><span class="cert-year">2025</span></div>
+        <div class="cert"><span>AWS Academy ML Foundations</span><span class="cert-year">2024</span></div>
+        <div class="cert"><span>NASA Space Apps Challenge</span><span class="cert-year">2025</span></div>
+        <div class="cert"><span>AWS Academy ML for NLP</span><span class="cert-year">2024</span></div>
+        <div class="cert"><span>Islington Hackathon</span><span class="cert-year">2025</span></div>
+        <div class="cert"><span>AWS Academy Cloud Foundations</span><span class="cert-year">2024</span></div>
+        <div class="cert"><span>Python and Django - Broadway Infosys</span><span class="cert-year">2020</span></div>
+      </div>
+    </section>
+
+    <div class="footer"><span>Pratyush Badal</span><span>2 / 2</span></div>
+  </article>
+</body>
+</html>
