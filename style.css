@@ -867,6 +867,10 @@ body:has(button:hover) .cursor {
   backdrop-filter: blur(8px);
 }
 
+.stat-card:last-child:nth-child(odd) {
+  grid-column: span 2;
+}
+
 .stat-card:hover {
   border-color: var(--accent-primary);
   transform: translateY(-3px);
